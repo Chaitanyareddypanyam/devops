@@ -1,0 +1,13 @@
+{
+    "name": "codedeploy-example",
+    "version": "1.0.0",
+    "description": "Sample Node.js application for AWS CodeDeploy",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "http": "^0.0.0"
+    }
+  }
+  
