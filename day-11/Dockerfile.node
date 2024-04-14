@@ -1,0 +1,17 @@
+# Use official Node.js image
+FROM node:latest
+
+# Set working directory
+WORKDIR /app
+
+# Copy application files
+COPY index.js .
+
+# Install required packages
+RUN npm install axios
+
+# Expose port
+EXPOSE 3000
+
+# Command to run the application
+CMD ["node", "index.js"]
